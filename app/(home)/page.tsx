@@ -1,7 +1,7 @@
 import Movie from "../../components/movie";
 import styles from "../../styles/home.module.css";
-import { API_URL } from "../constans";
 
+export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
 
 export const metadata = {
   title: "Home",
