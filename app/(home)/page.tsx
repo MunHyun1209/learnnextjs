@@ -1,7 +1,6 @@
 import Movie from "../../components/movie";
 import styles from "../../styles/home.module.css";
-
-export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
+import { API_URL } from "../constants";
 
 export const metadata = {
   title: "Home",
@@ -28,3 +27,4 @@ export default async function HomePage() {
     </div>
   );
 }
+export const runtime = "edge";

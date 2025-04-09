@@ -9,3 +9,4 @@ export const metadata = {
      </div>
    );
  }
+ export const runtime = "edge";
